@@ -1,0 +1,37 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width:500px) {
+
+    .filmedestaque .container{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    
+    .filmedestaque .botoes .botao{
+        width: 50%;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .filmedestaque .botoes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .filmedestaque .botoes{
+        width: 300px;
+    }
+}
