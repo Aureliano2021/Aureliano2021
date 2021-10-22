@@ -129,3 +129,14 @@ i{
 .link:hover{
     color: #aaa;
 }
+
+footer .direitos{
+    color: #aaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+    margin: 20px;
+}
