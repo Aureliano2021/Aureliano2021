@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /*elementos base*/
 
 body {
@@ -76,6 +81,7 @@ header nav a:hover{
     justify-content: center;
     align-items: center;
     width: 400px;
+    
 }
 .filmedestaque .botoes .botao{
     border: 0;
@@ -91,6 +97,7 @@ header nav a:hover{
     border-radius: 10px;
     cursor: pointer;
     transition: .2s ease all;
+    
 }
 
 .filmedestaque .botoes .botao:hover{
